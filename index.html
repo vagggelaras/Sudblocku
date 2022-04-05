@@ -1,0 +1,242 @@
+<html>
+<head>
+
+	<!-- import bootsrap -->
+  	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<title>Sudblocku</title>
+	<link rel="stylesheet" href="styles.css"/>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=8" />
+		<link href="http://threedubmedia.com/inc/img/favicon.ico" rel="shortcut icon" />
+		<link href="http://threedubmedia.com/inc/css/base.css" rel="stylesheet" />
+		<script src="jquery1_7_2.js"></script>
+		
+
+		<script src="jquery_drag_event2_2.js"></script>
+		<script src="jquery_drag_event_live2_2.js"></script>
+		<script src="jquery_drop_event2_2.js"></script>
+		<script src="jquery_drop_event_live2_2.js"></script>
+		<script src="jquery_excanvas.js"></script>
+<!-- <script src="https://github.com/threedubmedia/jquery.threedubmedia"></script> -->
+
+	<!-- import font awesome -->
+	<script src="https://kit.fontawesome.com/c0ed1af7ab.js" crossorigin="anonymous"></script>
+
+  	<style type="text/css">
+  		
+  		body{
+  			padding: 0;
+  		}
+
+  		.hover{
+  			background-color: red;
+  		}
+
+  		footer > .option1 > div > *{
+  			width: 60px;
+			height: 60px;
+  		}
+
+  		.test{
+  			background-color:blue;
+  		}
+
+		.green{
+			background-color:green;
+			position: fixed;
+			z-index: 5;
+		}
+
+		.red{
+			background-color:red;
+			position: fixed;
+			z-index:5;
+		}
+
+		.black{
+			background-color:black;
+			position:fixed;
+			z-index:5;
+		}
+
+		.black2{
+			background-color:#000001;
+			position:fixed;
+			z-index:5;
+		}
+
+		.black3{
+			background-color:#000002;
+			position:fixed;
+			z-index:5;
+		}
+
+  	</style>
+
+</head>
+<body>
+
+	<aside>
+		<i class="fa-solid fa-trophy fa-2x"></i>
+		<h3>0</h3>
+	</aside>
+
+	<main class="container">
+
+			<div class="col one">
+				<div class="r1c1"></div>
+				<div class="r1c2"></div>
+				<div class="r1c3"></div>
+				<div class="r2c1"></div>
+				<div class="r2c2"></div>
+				<div class="r2c3"></div>
+				<div class="r3c1"></div>
+				<div class="r3c2"></div>
+				<div class="r3c3"></div>
+			</div>
+			<div class="col two">
+				<div class="r1c4"></div>
+				<div class="r1c5"></div>
+				<div class="r1c6"></div>
+				<div class="r2c4"></div>
+				<div class="r2c5"></div>
+				<div class="r2c6"></div>
+				<div class="r3c4"></div>
+				<div class="r3c5"></div>
+				<div class="r3c6"></div>
+			</div>
+			<div class="col three">
+				<div class="r1c7"></div>
+				<div class="r1c8"></div>
+				<div class="r1c9"></div>
+				<div class="r2c7"></div>
+				<div class="r2c8"></div>
+				<div class="r2c9"></div>
+				<div class="r3c7"></div>
+				<div class="r3c8"></div>
+				<div class="r3c9"></div>
+			</div>
+
+			<div class="col four">
+				<div class="r4c1"></div>
+				<div class="r4c2"></div>
+				<div class="r4c3"></div>
+				<div class="r5c1"></div>
+				<div class="r5c2"></div>
+				<div class="r5c3"></div>
+				<div class="r6c1"></div>
+				<div class="r6c2"></div>
+				<div class="r6c3"></div>
+			</div>
+			<div class="col five">
+				<div class="r4c4"></div>
+				<div class="r4c5"></div>
+				<div class="r4c6"></div>
+				<div class="r5c4"></div>
+				<div class="r5c5"></div>
+				<div class="r5c6"></div>
+				<div class="r6c4"></div>
+				<div class="r6c5"></div>
+				<div class="r6c6"></div>
+			</div>
+			<div class="col six">
+				<div class="r4c7"></div>
+				<div class="r4c8"></div>
+				<div class="r4c9"></div>
+				<div class="r5c7"></div>
+				<div class="r5c8"></div>
+				<div class="r5c9"></div>
+				<div class="r6c7"></div>
+				<div class="r6c8"></div>
+				<div class="r6c9"></div>
+			</div>
+
+			<div class="col seven">
+				<div class="r7c1"></div>
+				<div class="r7c2"></div>
+				<div class="r7c3"></div>
+				<div class="r8c1"></div>
+				<div class="r8c2"></div>
+				<div class="r8c3"></div>
+				<div class="r9c1"></div>
+				<div class="r9c2"></div>
+				<div class="r9c3"></div>
+			</div>
+			<div class="col eight">
+				<div class="r7c4"></div>
+				<div class="r7c5"></div>
+				<div class="r7c6"></div>
+				<div class="r8c4"></div>
+				<div class="r8c5"></div>
+				<div class="r8c6"></div>
+				<div class="r9c4"></div>
+				<div class="r9c5"></div>
+				<div class="r9c6"></div>
+			</div>
+			<div class="col nine">
+				<div class="r7c7"></div>
+				<div class="r7c8"></div>
+				<div class="r7c9"></div>
+				<div class="r8c7"></div>
+				<div class="r8c8"></div>
+				<div class="r8c9"></div>
+				<div class="r9c7"></div>
+				<div class="r9c8"></div>
+				<div class="r9c9 "></div>
+			</div>
+
+	</main>
+ 	<footer class="container">
+
+		<div class="container option1">
+			<div class="col">
+				<div class="a a1"></div>
+				<div class="a a2"></div>
+				<div class="a a3"></div>
+				<div class="a a4"></div>
+				<div class="a a5 center"></div>
+				<div class="a a6"></div>
+				<div class="a a7"></div>
+				<div class="a a8"></div>
+				<div class="a a9"></div>
+			</div>
+		</div>
+		
+		<div class="container option1">
+			<div class="col">
+				<div class="b b1"></div>
+				<div class="b b2"></div>
+				<div class="b b3"></div>
+				<div class="b b4"></div>
+				<div class="b b5 center"></div>
+				<div class="b b6"></div>
+				<div class="b b7"></div>
+				<div class="b b8"></div>
+				<div class="b b9"></div>
+			</div>
+		</div>		
+
+		<div class="container option1">
+			<div class="col">
+				<div class="c c1"></div>
+				<div class="c c2"></div>
+				<div class="c c3"></div>
+				<div class="c c4"></div>
+				<div class="c c5 center"></div>
+				<div class="c c6"></div>
+				<div class="c c7"></div>
+				<div class="c c8"></div>
+				<div class="c c9"></div>
+			</div>
+		</div>
+
+	</footer>  
+	<script src="script.js"></script>
+
+</body>
+
+</html>
